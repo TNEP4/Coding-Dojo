@@ -1,0 +1,21 @@
+#title {
+    color: white;
+    background-color: black;
+}
+
+#cyan {
+    color: cyan;
+}
+
+.section2 {
+    text-align: center;
+    font-style: italic;
+    background-color: blueviolet;
+    color: white;
+}
+
+.section3 {
+    text-align: right;
+    text-decoration: underline;
+    background-color: deepskyblue;
+}
