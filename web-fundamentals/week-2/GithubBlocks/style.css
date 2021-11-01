@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightcyan;
+}
+
+h1 {
+color: slategrey;
+}
+
+.header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container {
+    padding: 15px;
+}
+
+.credits {
+    text-align: center;
+    color: grey;
+}
+.credits a {
+    color: darkturquoise;
+}
+
+.threeCards {
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.twoCards {
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.octocat {
+    height:100px;
+}
+
+#cyan {
+    background-color: cyan;
+}
+
+#red {
+    background-color: indianred;
+}
+
+#white {
+    background-color: white;
+}
