@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: #444444;
+    padding: 2px 6px 2px 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title {
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 12px;
+}
+
+.nav-links {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 12px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+.nav-links button {
+    background-color: turquoise;
+    color: white;
+    border: black;
+    padding: 2px 6px 2px 6px;
+    margin-right: 0px !important;
+    box-shadow: black 1px 1px ;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 12px;
+}
+
+#alignRight {
+    margin-left: auto !important;
+}
+
+
+.active {
+    color: white !important;
+}
+
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navContent {
+    width: 950px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container {
+    width: 500px;
+    padding: 0;
+    margin: 0 auto;
+    border: lightgray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+  }
+
+.cover {
+    background-color: cornflowerblue;
+    height: 60px
+}
+
+.blackCover {
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 20px;
+}
+
+#blackCover {
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    
+}
+
+.profilePicture {
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: lightgray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.profilePicture img {
+    width: 60px;
+    margin-left: 2px;
+    margin-top: 2px;
+    
+}
+
+.cardBody {
+    background-color: white;
+    padding: 20px;
+}
+
+.rowOrientation {
+    margin-top: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.rowOrientation img {
+    height: 12px;
+    margin-right: 6px;
+}
+
+.rowOrientation a {
+    font-size: 10px;
+    color: royalblue;
+}
+
+.description {
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.smallGrey {
+    font-size: 12px;
+    padding: 4px 0 4px 0;
+    color: grey;
+}
+
+#miniProfile {
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#miniProfileName {
+    line-height: 20px;
+}
+
+.alignRight {
+    margin-left: auto;
+}
+
+.stats {
+    background-color: white;
+    color: black !important;
+    padding: 1px 5px 1px 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.rightCard {
+    margin: 0 auto;;
+    border: lightgray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.bottomAction {
+    border-top: lightgray;
+    border-top-style: solid;
+    border-width: 2px;
+    padding: 10px 0 10px 20px;
+    font-size: 14px;
+    color: royalblue;
+}
