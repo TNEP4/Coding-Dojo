@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Gaming Dojo</title>
+  </head>
+    <body>
+        <div class="navbar">
+            <div class="nav">
+                <h1>Gaming<span class="purple">Dojo</span></h1>
+                <div class="float-right">
+                    <div>
+                        <form class="form-inline">
+                          <label for="exampleFormControlSelect1"></label>
+                              <select class="form-control form" id="exampleFormControlSelect1">
+                                  <option>Euro €</option>
+                                  <option>USD $</option>
+                                  <option>AUD $</option>
+                              </select>
+                        </form>
+                    </div>
+                    <div class="countNav">
+                        <img src="./images/cart-light.png" class="navIcon"></i><span class="numberCounted" id="clicks">0</span>
+                    </div>
+                    <div>
+                        <a class="nav-link" href="#"><img src="./images/search-light.png" class="navIcon" id="search"></a>
+                    </div>        
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Highlights</h2>
+            <div class="banner-container">
+                <div>
+                    <img src="./images/chevron-left.png" alt="chevron-left" class="chevronLeft" onclick="ChevLeft()">
+                    <img src="./images/chevron-left.png" alt="chevron-right" class="chevronRight" onclick="ChevRight()">
+                    <img src="./images/cafe-neko.png" alt="banner" class="banner" id="slideshow">
+                </div>
+                <div class="banner-indicator">
+                    <div class="indicator indic0">
+                    </div>
+                    <div class="indicator indic1">
+                    </div>
+                    <div class="indicator indic2">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <div class="card">
+                        <img src="./images/cafe-neko.png" alt="banner" class="banner cardImg">
+                        <div class="cardBody">
+                            <h3 class="card-title">Cafe Neko: Gold Edition</h3>
+                            <br />
+                              <a>
+                                <img src="./images/windows.png" alt="windows" class="brandIcon"> 
+                              </a>
+                              <a>
+                                <img src="./images/apple.png" alt="apple" class="brandIcon"> 
+                              </a>
+                            <br />
+                            <br />
+                            <div class="prices">
+                                <button class="announcement">-20%</button>
+                                <div class="col">
+                                <span class="discounted">$14.98</span>
+                                <br>
+                                   <span class="price">$10.49</span>
+                              </div>
+                              <button class="buy" onClick="onClick()">Buy</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card">
+                        <img src="./images/pixel-ninjas-2.png" alt="banner" class="banner cardImg">
+                        <div class="cardBody">
+                            <h3 class="card-title">Pixel Ninjas 2</h3>
+                            <br />
+                              <a>
+                                <img src="./images/windows.png" alt="windows" class="brandIcon"> 
+                              </a>
+                              <a>
+                                <img src="./images/apple.png" alt="apple" class="brandIcon"> 
+                              </a>
+                            <br />
+                            <br />
+                            <div class="prices">
+                                <button class="announcement">-10%</button>
+                                <div class="col">
+                                <span class="discounted">$8.19</span>
+                                <br>
+                                   <span class="price">$7.39</span>
+                              </div>
+                              <button class="buy" onClick="onClick()">Buy</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card">
+                        <img src="./images/stonepunk.png" alt="banner" class="banner cardImg">
+                        <div class="cardBody">
+                            <h3 class="card-title">Stonepunk 10000 BCE</h3>
+                            <br />
+                              <a>
+                                <img src="./images/windows.png" alt="windows" class="brandIcon"> 
+                              </a>
+                              <a>
+                                <img src="./images/apple.png" alt="apple" class="brandIcon"> 
+                              </a>
+                              <a>
+                                <img src="./images/linux.png" alt="apple" class="brandIcon linux" onclick="alert('The game is supported on Linux')"> 
+                              </a>
+                            <br />
+                            <br />
+                            <div class="prices">
+                                <button class="announcement">NEW</button>
+                                <div class="col">
+                                <span class="discounted"></span>
+                                <br>
+                                   <span class="price">$19.99</span>
+                              </div>
+                              <button class="buy" onClick="onClick()">Buy</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/58cae75791.js" crossorigin="anonymous"></script>
+    </body>
+</html>

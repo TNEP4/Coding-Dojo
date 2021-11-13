@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    
+}
+
+.nav {
+    width: 800px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.float-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.nav-link {
+    color: white;
+    align-content: center;
+}
+
+
+.purple {
+    color: purple;
+}
+
+.navIcon {
+    height: 30px;
+    align-self: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#search {
+    height: 25px;
+    padding-top: 5px;
+}
+
+.countNav {
+    display: flex;
+    align-items: center;
+}
+
+#clicks {
+    text-decoration: underline;
+    font-size: large;
+    color: white;
+    position: relative;
+    margin-left: 4px;
+}
+
+#cart {
+    margin-right: 6px;
+}
+
+.form {
+    padding: 7px 10px;
+}
+
+.banner-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    width: 100%;
+    z-index: 1;
+}
+
+.chevronLeft {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.chevronRight {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 725px;
+    transform:rotate(180deg);
+    cursor: pointer;
+}
+
+.banner-indicator {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.indicator {
+    width: 30px;
+    height: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #333;
+}
+
+.row {
+    display: flex;   
+}
+
+.col-1 {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;;
+}
+
+.cardImg {
+   border-radius: 5px 5px 0 0;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardBody {
+    padding: 15px;
+}
+
+.brandIcon {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.announcement {
+    background-color: rebeccapurple;
+    color: white;
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy {
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.col {
+    font-size: 10px;
+    text-align: center;
+}
+
+.discounted {
+    text-decoration: line-through; 
+    color: gray;
+}
+
+.price {
+    font-weight: 600; 
+    font-size: 14px;
+}
+.linux {
+    cursor: pointer;
+}
