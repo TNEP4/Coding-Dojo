@@ -18,7 +18,7 @@
             </div>
             <div class="topBar">
                 <div>
-                    <input type="text" placeholder="SEARCH" class="search" id="first"><button class="CTA">GO</button>
+                    <input type="text" placeholder="SEARCH" class="search" id="first" oninput="getSearch(this)"><button class="CTA" onclick="searchAlert()">GO</button>
                 </div>
                 <div class="recipeCategory">
                     <div class="iconContainer">
@@ -59,9 +59,9 @@
                                     <p>Orange Tea Jelly Tart</p>
                                     <p>by: <span><a href="#">yuripioano</a></span></p>
                                 </div>
-                                <div class="likes">
+                                <div class="likes" onclick="TartLikeCount()">
                                     <img src="./images/heart.png" alt="heart" class="heart">
-                                    <p>68</p>
+                                    <p id="likeCountTart">68</p>
                                 </div>
                             </div>
                             <div class="more">
@@ -81,9 +81,9 @@
                                     <p>Macarons</p>
                                     <p>by: <span><a href="#">EmilieW</a></span></p>
                                 </div>
-                                <div class="likes">
+                                <div class="likes" onclick="MacaronsLikeCount()">
                                     <img src="./images/heart.png" alt="heart" class="heart">
-                                    <p>212</p>
+                                    <p id="likeCountMacarons">212</p>
                                 </div>
                             </div>
                         </div>
@@ -94,9 +94,9 @@
                                     <p>Crème brûlée</p>
                                     <p>by: <span><a href="#">MarisaG</a></span></p>
                                 </div>
-                                <div class="likes">
+                                <div class="likes" onclick="CremeLikeCount()">
                                     <img src="./images/heart.png" alt="heart" class="heart">
-                                    <p>33</p>
+                                    <p id="likeCountCreme">33</p>
                                 </div>
                             </div>
                         </div>
@@ -104,8 +104,6 @@
 
                 </div>
             </div>
-
-
         </div>
         <script src="./script.js"></script>
     </body>
