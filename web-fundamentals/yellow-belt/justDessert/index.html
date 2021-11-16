@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>JustDessert</title>
+  </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <h1 class="logo">Just<span class="orange">Dessert</span></h1>
+                <div class="float-right">
+                    <button class="navButton" id="orangeBtn" onclick="hide(this)">Join</button>
+                    <button class="navButton" id="blueBtn">Login</button>
+                </div>
+            </div>
+            <div class="topBar">
+                <div>
+                    <input type="text" placeholder="SEARCH" class="search" id="first"><button class="CTA">GO</button>
+                </div>
+                <div class="recipeCategory">
+                    <div class="iconContainer">
+                        <img src="./images/cake.png" alt="cake" class="categoryImg">
+                    </div>
+                    <h5>Cakes</h5>
+                </div>
+                <div class="recipeCategory">
+                    <div class="iconContainer">
+                        <img src="./images/cookie.png" alt="cookies" class="categoryImg">
+                    </div>
+                    <h5>Cookies</h5>
+                </div>
+                <div class="recipeCategory">
+                    <div class="iconContainer">
+                        <img src="./images/ice-cream.png" alt="Ice Cream" class="categoryImg">
+                    </div>
+                    <h5>Ice Cream</h5>
+                </div>
+                <div class="recipeCategory" id="last">
+                    <div class="iconContainer">
+                        <img src="./images/pie.png" alt="Pie" class="categoryImg" >
+                    </div>
+                    <h5>Pie</h5>
+                </div>
+            </div>
+            <br />
+            <div class="content">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="highlightCard">
+                            <div class="highlightTitle">
+                                <h3>Recipe of the Day</h3>
+                            </div>
+                            <img src="./images/orange-tart.jpg" class="image" alt="Orange tart">
+                            <div class="cardBody">
+                                <div class="description">
+                                    <p>Orange Tea Jelly Tart</p>
+                                    <p>by: <span><a href="#">yuripioano</a></span></p>
+                                </div>
+                                <div class="likes">
+                                    <img src="./images/heart.png" alt="heart" class="heart">
+                                    <p>68</p>
+                                </div>
+                            </div>
+                            <div class="more">
+                                <a>See Full Recipe</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h4>Recommended for you:</h4>
+                        <div class="horizontalSpacer">
+                        </div>
+                        <div class="rightCard">
+                            <img src="./images/macarons.jpg" class="image" alt="Macarons">
+                            <div class="cardBody">
+                                <div class="description">
+                                    <p>Macarons</p>
+                                    <p>by: <span><a href="#">EmilieW</a></span></p>
+                                </div>
+                                <div class="likes">
+                                    <img src="./images/heart.png" alt="heart" class="heart">
+                                    <p>212</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rightCard">
+                            <img src="./images/creme-brulee.jpg" class="image" alt="Crème Brûlée">
+                            <div class="cardBody">
+                                <div class="description">
+                                    <p>Crème brûlée</p>
+                                    <p>by: <span><a href="#">MarisaG</a></span></p>
+                                </div>
+                                <div class="likes">
+                                    <img src="./images/heart.png" alt="heart" class="heart">
+                                    <p>33</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
