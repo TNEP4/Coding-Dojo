@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+li {
+  padding: 4px;
+}
