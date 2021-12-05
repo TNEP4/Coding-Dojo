@@ -17,3 +17,24 @@
   padding: 40px;
   margin-bottom: 20px;
 }
+
+.form {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  border: solid 1px darkgrey;
+  display: flex;
+  width: 400px;
+}
+
+.input {
+  margin-left: auto;
+  width: 225px;
+  padding: 6px;
+}
+
+.errorMessage {
+  margin-bottom: 20px;
+  font-size: small;
+}
