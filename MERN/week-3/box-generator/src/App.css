@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.boxGenInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.boxForm {
+  margin: 20px;
+}
+
+.spacerLeft {
+  margin-right: 20px;
+}
+
+
+.spacerRight {
+  margin-left: 20px;
+}
+
+#button {
+  padding: 8px 15px 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: large;
+}
+
+.colour {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
