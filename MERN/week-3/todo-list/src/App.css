@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  margin: auto;
+  width: 400px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 6px 12px 6px 12px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: large;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 6px;
+}
+
+.todo-list {
+
+  text-align: left;
+}
+
+.deleteBtn {
+  margin-left: 20px;
+  padding: 3px 6px 3px 6px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: small;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+.default {
+  color: black;
+}
