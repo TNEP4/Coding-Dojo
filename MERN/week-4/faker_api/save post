@@ -1,0 +1,41 @@
+const { request, response } = require('express');
+const express = require('express');
+const faker = require('faker');
+const app = express();
+
+
+//Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+
+app.get("/api/welcome", (req, res) => {
+    console.log("This is the welcome API route");
+    res.json({message : "Welcome to the API - this is the response"});
+});
+
+app.post("/api/welcome", (req, res) => {
+    console.log("This is our post");
+    res.json({
+            message : ["Test", "Test2", "Test3"],
+            ourRequestBody : req.body
+    })
+
+    console.log(req.body);
+
+});
+
+app.get("/api/faker", (req, res) => {
+    
+    const name = faker.name.firstName();
+    const email = faker.internet.email();
+
+    res.json({
+        firstName : name,
+        userEmail : email
+    });
+});
+
+app.listen(8000, () => console.log('Server started on port 8000'));
+
