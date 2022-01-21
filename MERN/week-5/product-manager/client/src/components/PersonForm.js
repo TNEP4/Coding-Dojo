@@ -10,7 +10,7 @@ const PersonForm = () => {
         //prevent default behavior of the submit
         e.preventDefault();
         //make a post request to create a new person
-        axios.post('http://localhost:8000/api/tasks', {
+        axios.post('http://localhost:8000/api/products', {
             title,    // this is shortcut syntax for title: firstName,
             price,      // this is shortcut syntax for lastName: lastName
             description

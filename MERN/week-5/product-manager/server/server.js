@@ -12,7 +12,7 @@ app.use(cors({
 // need to require config file
 require('./config/mongoose.config');
 // need to require routes
-require('./routes/task.route')(app);
+require('./routes/product.route')(app);
 
 app.listen(8000, () => {
     console.log('Server is listening on port 8000');
