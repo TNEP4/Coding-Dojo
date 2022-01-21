@@ -22,7 +22,9 @@ const PersonForm = () => {
     }
     
     return (
+
         <form onSubmit={onSubmitHandler}>
+            <h1>Add a new product</h1>
             <p>
                 <label>Title</label><br/>
                 {/* When the user types in this input, our onChange synthetic event 
