@@ -33,7 +33,7 @@ module.exports = {
             .catch(err => {
                 console.log("Something went wrong in createNewProduct");
                 res.status(400).json(err);
-                res.json({ message: "Something went wrong in createNewProduct", error: err });
+                // res.json({ message: "Something went wrong in createNewProduct", error: err });
             })
     },
     findOneProduct: function (req, res) {
@@ -71,7 +71,7 @@ module.exports = {
             .catch(err => {
                 console.log("update One Product failed");
                 res.status(400).json(err);
-                res.json({ message: "Something went wrong in updateOneProduct", error: err });
+                // res.json({ message: "Something went wrong in updateOneProduct", error: err });
             })
         }
     }

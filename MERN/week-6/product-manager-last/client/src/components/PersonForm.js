@@ -27,6 +27,9 @@ const PersonForm = (props) => {
                 console.log(res);
                 console.log(res.data);
                 setProductList([...productList, res.data]);
+                setTitle("");
+                setPrice("");
+                setDescription("");
             })
             .catch((err)=>{
                 // console.log(err);
@@ -52,20 +55,20 @@ const PersonForm = (props) => {
                 {/* When the user types in this input, our onChange synthetic event 
                     runs this arrow function, setting that event's target's (input) 
                     value (what's typed into the input) to our updated state   */}
-                <input type="text" onChange = {(e)=>setTitle(e.target.value)}/>
+                <input type="text" value={title} onChange = {(e)=>setTitle(e.target.value)}/>
                 <br />
             </div>
             { errors.title ? <div style={{marginTop:"10px"}}>{errors.title.message}</div> : null }
             <div>
             <br />
                 <label style={{fontWeight:"bold"}}>Price</label><br/>
-                <input type="text" onChange = {(e)=>setPrice(e.target.value)}/>
+                <input type="number" value={price} onChange = {(e)=>setPrice(e.target.value)}/>
             </div>
             { errors.price ? <div style={{marginTop:"10px"}}>{errors.price.message}</div> : null }
             <div>
             <br />
                 <label style={{fontWeight:"bold"}}>Description</label><br/>
-                <input type="text" onChange = {(e)=>setDescription(e.target.value)}/>
+                <input type="text" value={description} onChange = {(e)=>setDescription(e.target.value)}/>
 
             </div>
             { errors.description ? <div style={{marginTop:"10px"}}>{errors.description.message}</div> : null }

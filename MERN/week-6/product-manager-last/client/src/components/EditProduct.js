@@ -9,6 +9,8 @@ const EditProduct = (props) => {
     const [description, setDescription] = useState("");
     const [errors, setError] = useState({});
 
+    
+
     //we don't want the header changing every time we type, so let's have a piece of state to
     //capture and display document's title as it is when this component renders and we make our
     //getOne request in our useEffect
